@@ -1,0 +1,42 @@
+.gradient-background {
+  background: linear-gradient(300deg, #793FDF, #97FFF4, #7091F5);
+  background-size: 180% 180%;
+  animation: gradient-animation 2s ease infinite;
+}
+.description {
+  font-weight: 500;
+  font-family: "Caveat", cursive;
+  font-family: "Handjet", cursive;
+  font-family: "Roboto Slab", serif;
+  font-family: "Satisfy", cursive;
+}
+
+.display-4 {
+  font-family: "Handjet", cursive;
+  font-family: "Roboto Slab", serif;
+  font-family: "Satisfy", cursive;
+}
+.parent {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  height: 30vh;
+}
+.size{
+  font-size: 20px;
+}
+.coding {
+  text-align: center;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
